@@ -9,6 +9,7 @@ html,body{
     height: 100%;
 }
 #minicircle {
+    transition: all cubic-bezier(0.19, 1, 0.22, 1)1s;
     width: 12px;
     height: 12px;
     color: white;
@@ -211,5 +212,3 @@ html,body{
     display: flex;
     gap: 20px;
 }
-
-
